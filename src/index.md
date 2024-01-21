@@ -69,7 +69,7 @@ posts.forEach((data) => {
 </style>
 
 
-![トップ画像](site-image.webp)
+![トップ画像](./public/site-image.webp)
 
 `hekireki`はシンプルかつ軽快に動作する`VitePressカスタムテーマ`です。
 
