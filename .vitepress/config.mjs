@@ -26,8 +26,8 @@ export default defineConfig({
   themeConfig: {
     siteTitle: "hekireki demo site",
     footerNav: [
-      {text: "About", link: "/about"},
-      {text: "Sitemap", link: "/sitemap"},
+      {text: "About", link: "https://handism.github.io/hekireki/about"},
+      {text: "Sitemap", link: "https://handism.github.io/hekireki/sitemap"},
       {text: "GitHub", link: "https://github.com/handism/hekireki"}
     ]
   },
