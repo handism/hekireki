@@ -5,6 +5,7 @@ export default defineConfig({
   description: "hekireki demo site",
   ignoreDeadLinks: "localhostLinks",
   lang: "ja-JP",
+  base: '/hekireki/',
   cleanUrls: true,
   srcDir: "./src",
   srcExclude: ["**/README.md", "draft/*.md", "template/*.md"],
