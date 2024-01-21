@@ -1,0 +1,2 @@
+# hekireki
+シンプルかつ軽快に動作するVitePressカスタムテーマ
