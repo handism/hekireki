@@ -1,4 +1,4 @@
-# hekireki Ver1.0
+# hekireki v1.0
 
 ## 特徴
 
