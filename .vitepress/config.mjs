@@ -13,7 +13,7 @@ export default defineConfig({
     image: {lazyLoading: true}
   },
   head: [
-          ["link", {rel: "icon", href: "/favicon.ico"}],
+          ["link", {rel: "icon", href: "/hekireki/favicon.ico"}],
           ["link", {rel: "preconnect", href: "https://fonts.googleapis.com"}],
           ["link", {rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: ""}],
           ["link", {href: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap", rel: "stylesheet"}],
