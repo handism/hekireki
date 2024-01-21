@@ -7,6 +7,7 @@
 * OS設定に基づいた自動ダークモードに対応
 * レスポンシブレイアウトに対応
 * URLは`/[mdファイル名]`の形式、タグページは`/tag/[タグ名]`の形式
+* デモサイト：[hekireki demo site](https://handism.github.io/hekireki/)
 
 
 ## 使い方
