@@ -74,7 +74,8 @@ posts.forEach((data) => {
 
 `hekireki`はシンプルかつ軽快に動作する`VitePressカスタムテーマ`です。
 
-`GitHub`：https://github.com/handism/hekireki
+インストールは[こちら](https://github.com/handism/hekireki)を参照ください。
+
 
 
 ## 記事一覧
