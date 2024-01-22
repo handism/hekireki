@@ -18,6 +18,7 @@
 * 本リポジトリは`GitHub`の`テンプレートリポジトリ`となっているため、以下Webサイトを参考にしてリポジトリを作成してください
   * https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 * ホスティングについては、必要に応じて`GitHub Pages`などの設定を行ってください
+  * `GitHub Actions`による自動デプロイには`.github/workflows/static.yml`を使用できます
 
 
 ### サイト設定
