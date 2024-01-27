@@ -5,15 +5,6 @@ titleTemplate: :title
 <script setup>
 import { data as posts } from "../.vitepress/theme/components/posts.data.mjs"
 import { withBase } from "vitepress"
-
-const tagSet = new Set() // タグを格納するためのセット
-
-posts.forEach((data) => {
-  // tags:がある場合は配列からセットに格納していく
-  if (data.frontmatter && data.frontmatter.tags && Array.isArray(data.frontmatter.tags)) {
-    data.frontmatter.tags.forEach((tag) => tagSet.add(tag))
-  }
-})
 </script>
 
 <style scoped>
@@ -81,7 +72,7 @@ posts.forEach((data) => {
 ## 記事一覧
 
 <div class="post-card-container">
-<template v-for="post of posts">
+<template v-for="post of posts.splice(0, 9)">
     <a :href="withBase(post.url)" class="post-card">
       <img :src="post.frontmatter.image" alt="Post Thumbnail" class="thumbnail" width="2688" height="1536" />
       <h2 class="post-title">{{ post.frontmatter.title }}</h2>
